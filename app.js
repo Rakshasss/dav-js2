@@ -39,3 +39,17 @@ let sum2 = 0;
 arr2.forEach(num => sum2 += num);
 
 console.log(sum2 / arr2.length);
+
+const obj = {
+    phoneName: "Vashlijvari mobile",
+    phoneDescription: "Meido in vashlijvari",
+    phonePrice: 2500, //USD
+    showAddresses: ["Vashlijvari Street 1", "Vashlijvari Street 2"],
+    phoneMemoryInGb: 16
+};
+
+console.log(`
+Phone name is ${obj.phoneName},
+Phone price is ${obj.phonePrice}
+And you can buy it at ${obj.showAddresses[0]}
+`);
